@@ -75,7 +75,6 @@ column_headers = ["Timestamp", "Date of Match Played", "Type of Match", "League 
 for player in players:
     player_data = players_data[r]  # Replace this with your function to retrieve the data set for each player
     total_rounds = len(players_data)
-    print(total_rounds)
 
     filename = f"{player}.csv"
     with open(filename, 'w', newline='') as csvfile:
@@ -83,7 +82,6 @@ for player in players:
         writer.writeheader()
         for round_data in player_data:
             writer.writerow(round_data)
-        print(r)
     if r < total_rounds:
         r = r + 1
     else:
@@ -93,14 +91,37 @@ def advanced_stats(filename, advanced_filename):
     wins = 0
     with open(filename, 'r') as f:
         reader = csv.DictReader(f)
+        score_count = 0
+        total_rounds = 0
+        list_of_scores = []
         for row in reader:
+            list_of_scores.append(int(row["+/- Par (Score-Par)"]))
             if row['Type of Match'] == 'Exhibition' and row['Win? (Score-SGA Handicap)'] == 'TRUE':
                 wins += 1
+
+            print(filename)
+            print("score")
+
+            print(row["+/- Par (Score-Par)"])
+            row_score = int(row["+/- Par (Score-Par)"])
+            score_count = score_count + row_score
+            total_rounds = total_rounds + 1
+
+            print("Score Count")
+            print(score_count)
+
+            season_average_score = (score_count/total_rounds)
+            print("Season Average")
+            print(season_average_score)
+    total_scores = len(list_of_scores)
+    print(f"{player} Total Scores")
+    print(total_scores)
+
     with open(advanced_filename, 'w', newline='') as f:
-        fieldnames = ['Exhibition Wins']
+        fieldnames = ['Exhibition Wins', 'Season Average Score']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerow({'Exhibition Wins': wins})
+        writer.writerow({'Exhibition Wins': wins, 'Season Average Score': season_average_score})
 
 for player in players:
     filename = f"{player}.csv"
@@ -108,6 +129,7 @@ for player in players:
     advanced_stats(filename, advanced_filename)
 
 exwinstotal = 0
+post = False
 
 for player in players:
     filename = f"{player}_advanced.csv"
@@ -121,7 +143,6 @@ for player in players:
                 print(f"John Wins {exwinstotal}")
                 sga_totals.update('G2', exwinstotal)
             elif player == 'Colin':
-
                 print(f"Colin Wins {exwinstotal}")
                 sga_totals.update('G3', exwinstotal)
             elif player == 'Chris':
@@ -151,6 +172,8 @@ for player in players:
             elif player == 'Moffa':
                 print(f"Moffa Wins {exwinstotal}")
                 sga_totals.update('G10', exwinstotal)
+
+
 
 
 
