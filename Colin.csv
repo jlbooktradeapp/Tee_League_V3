@@ -1,0 +1,11 @@
+Timestamp,Date of Match Played,Type of Match,League Members Present to Validate Score,Course Played,Par of Course Played,Your Total Score,+/- Par (Score-Par),Win? (Score-SGA Handicap),Number of Pars,Number of Birdies,Number of Eagles,Number of 25+ Foot Putts,Number of Chip In's,Number of Balls Lost,Email Address
+1/1/2023 16:41:17,1/1/2023,Exhibition,"Chris, Cam",Golden Pheasant,72,114,42,FALSE,0,0,0,0,0,10,
+1/5/2023 15:07:33,1/5/2023,Exhibition,Austin,Springfield,68,95,27,TRUE,3,1,0,0,0,5,
+1/8/2023 15:04:39,1/8/2023,Exhibition,"Chris, Austin, John",Rancocas Golf Club,71,116,45,FALSE,1,0,0,0,0,3,
+1/14/2023 14:02:03,1/14/2023,Exhibition,Austin,Springfield,68,104,36,FALSE,4,0,0,0,0,4,
+1/15/2023 14:11:23,1/15/2023,Exhibition,"Chris, John, Jeff",Rancocas Golf Club,71,116,45,FALSE,0,0,0,0,0,5,
+1/16/2023 15:44:50,1/16/2023,Exhibition,"Chris, Kevin",Springfield,68,94,26,TRUE,4,1,0,0,0,3,
+1/22/2023 13:32:49,1/21/2023,Exhibition,"Chris, Austin",Golden Pheasant,72,112,40,FALSE,2,0,0,1,0,7,
+1/22/2023 13:33:36,1/22/2023,Exhibition,"Chris, John",Golden Pheasant,72,107,35,FALSE,2,0,0,0,0,6,
+1/24/2023 15:19:13,1/24/2023,Exhibition,"John, Kevin",Springfield,68,96,28,TRUE,6,0,0,0,0,5,
+1/28/2023 11:51:16,1/28/2023,Exhibition,"Chris, Kevin",Springfield,68,98,30,TRUE,2,0,0,0,0,5,

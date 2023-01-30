@@ -1,0 +1,10 @@
+Timestamp,Date of Match Played,Type of Match,League Members Present to Validate Score,Course Played,Par of Course Played,Your Total Score,+/- Par (Score-Par),Win? (Score-SGA Handicap),Number of Pars,Number of Birdies,Number of Eagles,Number of 25+ Foot Putts,Number of Chip In's,Number of Balls Lost,Email Address
+1/1/2023 16:50:50,1/1/2023,Exhibition,"Colin, Cam",Golden Pheasant,72,106,34,TRUE,0,0,0,0,0,3,
+1/2/2023 16:51:16,1/2/2023,Exhibition,John,Springfield,68,92,24,TRUE,4,0,0,0,0,2,
+1/7/2023 17:34:22,1/7/2023,Exhibition,John,Springfield,68,105,37,FALSE,2,0,0,0,0,9,
+1/8/2023 16:07:20,1/8/2023,Exhibition,"Colin, Austin, John",Rancocas Golf Club,71,116,45,FALSE,1,0,0,0,0,8,
+1/15/2023 16:18:28,1/15/2023,Exhibition,"Colin, John, Jeff",Rancocas Golf Club,71,115,44,FALSE,1,0,0,0,0,2,
+1/16/2023 16:40:37,1/16/2023,Exhibition,"Colin, Kevin",Springfield,68,95,27,FALSE,1,1,0,0,0,0,
+1/22/2023 15:32:39,1/21/2023,Exhibition,"Colin, Austin",Golden Pheasant,72,113,41,FALSE,1,0,0,1,0,2,
+1/22/2023 15:33:38,1/22/2023,Exhibition,"Colin, John, Moffa",Golden Pheasant,72,106,34,FALSE,0,1,0,0,0,2,
+1/28/2023 13:59:08,1/28/2023,Exhibition,"Colin, Moffa, Kevin",Springfield,68,99,31,FALSE,0,0,0,0,0,1,
